@@ -81,7 +81,7 @@ const run = async () => {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send(`Running node server on ports ${port}`);
+  res.send(`Running node server on the ports ${port}`);
 });
 app.listen(port, () => {
   console.log(`listening to port ${port}`);
